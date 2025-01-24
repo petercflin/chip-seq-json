@@ -1,0 +1,30 @@
+{
+    "chip.title" : "Penn Lab (Lin) - MYC, CHAF1B and ASF1A ChIP-seq (paired-end)",
+    "chip.description" : "Submitted to SickKids on November 2024. Data was generated using the Novaseq X on-board DRAGEN software version 4.1.7 at 50 million reads sequencing depth and paired-end 2x150bp.",
+
+    "chip.pipeline_type" : "tf",
+    "chip.aligner" : "bowtie2",
+    "chip.align_only" : false,
+    "chip.true_rep_only" : false,
+
+    "chip.genome_tsv" : "https://storage.googleapis.com/encode-pipeline-genome-data/genome_tsv/v4/hg38.tsv",
+
+    "chip.paired_end" : true,
+    "chip.ctl_paired_end" : true,
+
+    "chip.always_use_pooled_ctl" : true,
+
+    "chip.fastqs_rep5_R1" : [ "/cluster/projects/penngroup/peterlin/20250123_PeterAnna_ChIPseq_Data/raw_data/PL_5_MYC_S123_L005_R1_001.fastq.gz" ],
+    "chip.fastqs_rep5_R2" : [ "/cluster/projects/penngroup/peterlin/20250123_PeterAnna_ChIPseq_Data/raw_data/PL_5_MYC_S123_L005_R2_001.fastq.gz" ],
+    "chip.fastqs_rep7_R1" : [ "/cluster/projects/penngroup/peterlin/20250123_PeterAnna_ChIPseq_Data/raw_data/PL_7_MYC_S126_L005_R1_001.fastq.gz" ],
+    "chip.fastqs_rep7_R2" : [ "/cluster/projects/penngroup/peterlin/20250123_PeterAnna_ChIPseq_Data/raw_data/PL_7_MYC_S126_L005_R2_001.fastq.gz" ],
+    "chip.fastqs_rep9_R1" : [ "/cluster/projects/penngroup/peterlin/20250123_PeterAnna_ChIPseq_Data/raw_data/PL_9_MYC_S129_L005_R1_001.fastq.gz" ],
+    "chip.fastqs_rep9_R2" : [ "/cluster/projects/penngroup/peterlin/20250123_PeterAnna_ChIPseq_Data/raw_data/PL_9_MYC_S129_L005_R2_001.fastq.gz" ],
+
+    "chip.ctl_fastqs_rep5_R1" : [ "/cluster/projects/penngroup/peterlin/20250123_PeterAnna_ChIPseq_Data/raw_data/PL_5_Input_S122_L005_R1_001.fastq.gz" ],
+    "chip.ctl_fastqs_rep5_R2" : [ "/cluster/projects/penngroup/peterlin/20250123_PeterAnna_ChIPseq_Data/raw_data/PL_5_Input_S122_L005_R2_001.fastq.gz" ],
+    "chip.ctl_fastqs_rep7_R1" : [ "/cluster/projects/penngroup/peterlin/20250123_PeterAnna_ChIPseq_Data/raw_data/PL_7_Input_S125_L005_R1_001.fastq.gz" ],
+    "chip.ctl_fastqs_rep7_R2" : [ "/cluster/projects/penngroup/peterlin/20250123_PeterAnna_ChIPseq_Data/raw_data/PL_7_Input_S125_L005_R2_001.fastq.gz" ],
+    "chip.ctl_fastqs_rep9_R1" : [ "/cluster/projects/penngroup/peterlin/20250123_PeterAnna_ChIPseq_Data/raw_data/PL_9_Input_S128_L005_R1_001.fastq.gz" ],
+    "chip.ctl_fastqs_rep9_R2" : [ "/cluster/projects/penngroup/peterlin/20250123_PeterAnna_ChIPseq_Data/raw_data/PL_9_Input_S128_L005_R2_001.fastq.gz" ]
+}
