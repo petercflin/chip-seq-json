@@ -14,9 +14,17 @@
 
     "chip.always_use_pooled_ctl" : true,
 
-    "chip.fastqs_rep5_R1" : [ "/Users/peterlin/Downloads/BS0Z6SB/LIN29763.20250121/Local Pipeline/raw_data/PL_5_CHAF1B_S124_L005_R1_001.fastq.gz" ],
-    "chip.fastqs_rep5_R2" : [ "/Users/peterlin/Downloads/BS0Z6SB/LIN29763.20250121/Local Pipeline/raw_data/PL_5_CHAF1B_S124_L005_R2_001.fastq.gz" ],
+    "chip.fastqs_rep5_R1" : [ "/cluster/projects/penngroup/peterlin/20250123_PeterAnna_ChIPseq_Data/raw_data/PL_5_MYC_S123_L005_R1_001.fastq.gz" ],
+    "chip.fastqs_rep5_R2" : [ "/cluster/projects/penngroup/peterlin/20250123_PeterAnna_ChIPseq_Data/raw_data/PL_5_MYC_S123_L005_R2_001.fastq.gz" ],
+    "chip.fastqs_rep7_R1" : [ "/cluster/projects/penngroup/peterlin/20250123_PeterAnna_ChIPseq_Data/raw_data/PL_7_MYC_S126_L005_R1_001.fastq.gz" ],
+    "chip.fastqs_rep7_R2" : [ "/cluster/projects/penngroup/peterlin/20250123_PeterAnna_ChIPseq_Data/raw_data/PL_7_MYC_S126_L005_R2_001.fastq.gz" ],
+    "chip.fastqs_rep9_R1" : [ "/cluster/projects/penngroup/peterlin/20250123_PeterAnna_ChIPseq_Data/raw_data/PL_9_MYC_S129_L005_R1_001.fastq.gz" ],
+    "chip.fastqs_rep9_R2" : [ "/cluster/projects/penngroup/peterlin/20250123_PeterAnna_ChIPseq_Data/raw_data/PL_9_MYC_S129_L005_R2_001.fastq.gz" ],
 
-    "chip.ctl_fastqs_rep5_R1" : [ "/Users/peterlin/Downloads/BS0Z6SB/LIN29763.20250121/Local Pipeline/raw_data/PL_5_Input_S122_L005_R1_001.fastq.gz" ],
-    "chip.ctl_fastqs_rep5_R2" : [ "/Users/peterlin/Downloads/BS0Z6SB/LIN29763.20250121/Local Pipeline/raw_data/PL_5_Input_S122_L005_R2_001.fastq.gz" ]
+    "chip.ctl_fastqs_rep5_R1" : [ "/cluster/projects/penngroup/peterlin/20250123_PeterAnna_ChIPseq_Data/raw_data/PL_5_Input_S122_L005_R1_001.fastq.gz" ],
+    "chip.ctl_fastqs_rep5_R2" : [ "/cluster/projects/penngroup/peterlin/20250123_PeterAnna_ChIPseq_Data/raw_data/PL_5_Input_S122_L005_R2_001.fastq.gz" ],
+    "chip.ctl_fastqs_rep7_R1" : [ "/cluster/projects/penngroup/peterlin/20250123_PeterAnna_ChIPseq_Data/raw_data/PL_7_Input_S125_L005_R1_001.fastq.gz" ],
+    "chip.ctl_fastqs_rep7_R2" : [ "/cluster/projects/penngroup/peterlin/20250123_PeterAnna_ChIPseq_Data/raw_data/PL_7_Input_S125_L005_R2_001.fastq.gz" ],
+    "chip.ctl_fastqs_rep9_R1" : [ "/cluster/projects/penngroup/peterlin/20250123_PeterAnna_ChIPseq_Data/raw_data/PL_9_Input_S128_L005_R1_001.fastq.gz" ],
+    "chip.ctl_fastqs_rep9_R2" : [ "/cluster/projects/penngroup/peterlin/20250123_PeterAnna_ChIPseq_Data/raw_data/PL_9_Input_S128_L005_R2_001.fastq.gz" ]
 }
